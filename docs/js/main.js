@@ -8,6 +8,11 @@ Reveal.initialize({
     },
     // Learn about plugins: https://revealjs.com/plugins/
     plugins: [
+        RevealHighlight,
+        RevealMarkdown,
+        RevealNotes,
+        RevealSearch,
+        RevealZoom,
         RevealMenu
     ]
 });
